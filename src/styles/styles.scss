@@ -1,11 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+$primary: #e86c00;
+
 @import "../../node_modules/bulma/bulma";
 
-html {
+html:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  width: 100vw;
+  height: 100vh;
   background: url("../assets/images/Landscape_1.2.png") no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }
 
 .box {
   margin: .2rem 2rem;
+  background-color: rgba(255, 255, 255, 0)
 }
 

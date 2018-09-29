@@ -5,6 +5,7 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { HomeComponent } from './components/home/home.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import {RouterModule} from '@angular/router';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import {RouterModule} from '@angular/router';
   declarations: [
     NavigationComponent,
     HomeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    AboutComponent
   ]
 })
 export class CoreModule { }
