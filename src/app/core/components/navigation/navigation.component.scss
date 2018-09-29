@@ -1,0 +1,33 @@
+@media screen and (max-width: 1087px) {
+  .navbar-end {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .navbar-menu {
+    background-color: transparent !important;
+  }
+}
+
+.logo {
+  padding: 0.5rem 0.75rem;
+}
+
+.navbar {
+  background-color: transparent !important;
+  margin-top: .2rem;
+}
+
+a.navbar-item:hover,
+.navbar-link:hover {
+  background-color: transparent !important;
+  box-shadow: 1px -2px 10px -1px rgba(77,77,77,0.78);
+  border-radius: 3px;
+}
+
+a.navbar-item.is-active,
+.navbar-link.is-active {
+  background-color: transparent !important;
+  box-shadow: inset 1px -2px 10px -1px rgba(77,77,77,0.78);
+  border-radius: 3px;
+}

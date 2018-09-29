@@ -1,2 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../../node_modules/bulma/bulma";
+
+html {
+  background: url("../assets/images/Landscape_1.2.png") no-repeat;
+}
+
+.box {
+  margin: .2rem 2rem;
+}
+

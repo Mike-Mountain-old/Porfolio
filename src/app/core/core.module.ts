@@ -1,14 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { CoreRoutingModule } from './core-routing.module';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { HomeComponent } from './components/home/home.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   imports: [
     CommonModule,
-    CoreRoutingModule
+    RouterModule
   ],
-  declarations: [NavigationComponent]
+  exports: [
+    NavigationComponent
+    ],
+  declarations: [
+    NavigationComponent,
+    HomeComponent,
+    ProjectsComponent
+  ]
 })
 export class CoreModule { }
